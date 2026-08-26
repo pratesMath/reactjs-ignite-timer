@@ -21,4 +21,5 @@ export const GlobalStyle = createGlobalStyle/* css */`
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+  }
 `;
