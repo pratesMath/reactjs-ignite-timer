@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@hookform/resolvers':
+        specifier: 2.9.1
+        version: 2.9.1(react-hook-form@7.32.0(react@19.2.8))
       phosphor-react:
         specifier: 1.4.1
         version: 1.4.1(react@19.2.8)
@@ -26,6 +29,9 @@ importers:
       styled-components:
         specifier: 5.3.5
         version: 5.3.5(@babel/core@7.29.7)(react-dom@19.2.8(react@19.2.8))(react-is@16.13.1)(react@19.2.8)
+      zod:
+        specifier: 3.17.3
+        version: 3.17.3
     devDependencies:
       '@biomejs/biome':
         specifier: 2.5.10
@@ -207,6 +213,11 @@ packages:
 
   '@emotion/unitless@0.7.5':
     resolution: {integrity: sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==}
+
+  '@hookform/resolvers@2.9.1':
+    resolution: {integrity: sha512-80lyFFcExEB7A09PFnl8k7A3obQyDF6MyO/FThtwetk+MTedYMs08Aqf7mgWnOawFGyz5QF+TZXJSYiIZW2tEg==}
+    peerDependencies:
+      react-hook-form: ^7.0.0
 
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
@@ -690,6 +701,9 @@ packages:
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
 
+  zod@3.17.3:
+    resolution: {integrity: sha512-4oKP5zvG6GGbMlqBkI5FESOAweldEhSOZ6LI6cG+JzUT7ofj1ZOC0PJudpQOpT1iqOFpYYtX5Pw0+o403y4bcg==}
+
 snapshots:
 
   '@babel/code-frame@7.29.7':
@@ -849,6 +863,10 @@ snapshots:
   '@emotion/stylis@0.8.5': {}
 
   '@emotion/unitless@0.7.5': {}
+
+  '@hookform/resolvers@2.9.1(react-hook-form@7.32.0(react@19.2.8))':
+    dependencies:
+      react-hook-form: 7.32.0(react@19.2.8)
 
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
@@ -1198,3 +1216,5 @@ snapshots:
       fsevents: 2.3.3
 
   yallist@3.1.1: {}
+
+  zod@3.17.3: {}
