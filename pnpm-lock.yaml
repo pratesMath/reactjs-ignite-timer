@@ -11,6 +11,9 @@ importers:
       '@hookform/resolvers':
         specifier: 2.9.1
         version: 2.9.1(react-hook-form@7.32.0(react@19.2.8))
+      date-fns:
+        specifier: 2.28.0
+        version: 2.28.0
       phosphor-react:
         specifier: 1.4.1
         version: 1.4.1(react@19.2.8)
@@ -406,6 +409,10 @@ packages:
 
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
+
+  date-fns@2.28.0:
+    resolution: {integrity: sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==}
+    engines: {node: '>=0.11'}
 
   debug@4.4.3:
     resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
@@ -1000,6 +1007,8 @@ snapshots:
       postcss-value-parser: 4.2.0
 
   csstype@3.2.3: {}
+
+  date-fns@2.28.0: {}
 
   debug@4.4.3(supports-color@5.5.0):
     dependencies:
